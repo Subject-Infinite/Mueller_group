@@ -1,14 +1,16 @@
 h1 {
-color: orange;
+color: #808080;
 text-align: center;
 font-family: "Verdana", Geneva, sans-serif;
-margin-left: 250px;
+margin-left: 180px;
 }
 
 #main {
 	font-family: "Verdana", Geneva, sans-serif;
-	margin-left: 280px;
+	margin-left: 260px;
+	
 }
+
 
 #sidenav {
 	
@@ -19,7 +21,7 @@ margin-left: 250px;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgba(17, 17, 17, 0);
   overflow-x: hidden;
   padding-top: 20px;
 
@@ -34,5 +36,17 @@ padding: 6px 6px 6px 32px;
   display: block;
 }
 
+.lightsheet {
+	/* background: black url(images\lightsheet_1b.jpg) center no-repeat; */
+  
+  width: 100%;
+  position: relative;
+  /*left: 50%;
+  right: 50%;
+  /*margin-left: -50vw;*/
+  margin-right: -50vw; 
+}
+}
 
 }
+
